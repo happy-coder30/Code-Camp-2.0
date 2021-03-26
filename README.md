@@ -4,7 +4,7 @@
 *As per the Ditch the Label survey, one of  the world’s leading anti-bullying organizations, has provided that 42% of the people bullied on Instagram, 37% on facebook and 9% on twitter. We can use the  comments  available  on these social media for analysing  whether  a person is bullied or not using sentiment analysis concept, text mining and Navie Bayes- a machine learning algorithm.*
 
 ## Introduction:
-### 1.Sentiment Analysis:
+### 1. Sentiment Analysis:
 Sentiment Analysis is a branch of data science which includes contextual mining of text(also called as text mining) which identifies and extracts subjective information in source material, and thus helps a to understand the social sentiment. Sentiment Analysis or opinion mining is the process of determining whether the language reflects positive, negative or neutral sentiment.
 
 ### 2. Naive Bayes Algorithm on Sentiment Analysis:
@@ -26,4 +26,24 @@ where, y is class variable and X is a dependent feature vector (of size n) where
 1. Import the dataset which is in `.csv` format (named as Dataset-of-comments-of-instagram-facebook-twitter) that contains the twitter,instagram and facebook comments of users and labelled as bully or not bully.
 2. Data cleaning: Removing unwanted words that contribute nothing to the analysis by building corpus.
 3. Tokenization: Creation of DocumentTermMatrix.The process of converting text into tokens before transforming it into vectors. For example, a document into paragraphs or sentences into words. In this case we are tokenising the reviews into words.    
-4. Data Visualization: Formation of wordcloud ![alt text]()
+4. Data Visualization: Formation of wordcloud 
+    ![Dataset Wordcloud](images/wordcloud.png)
+    ![Wordcloud that contain bullying words](images/wordcloudbully.png)
+    ![Wordcloud that conatin not bullying words](images/wordcloudnotbully.png)
+
+5. Divide dataset into 75% training and 25% testing
+6. Apply Naive Bayes algorithm. Calculate confusion matrix.
+  ![Confusion matrix for bully and not bully comments](images/table.png)
+7. Display result i.e. accuracy of the model
+ ![Wordcloud that conatin not bullying words](images/accuracy.png)
+8. Display Sentiment Scores.
+![Sentiment Scores](images/sentimentscores.png)
+ 
+## Conclusion
+From the various machine learning approaches for sentiment analysis we chose Naive Bayes algorithm. The advantage of these classifiers is that they require small number of training data for estimating the parameters necessary for classification. This is the algorithm of choice for text categorization. Naive Bayes model trains the
+model in less time (for small data as in our case there are no hidden layers for the probabilistic model). Naive Bayes models are comparatively better for small data which is represented in our project.
+
+**Please find the google drive link below**
+[Sentiment Analysis Using Text Mining for Cyber Bullying](https://drive.google.com/drive/folders/128cgplbTcIDC5PSdJkxxH2_23CpJ_4mJ)
+
+*Note: `Sentiment Analysis.R` file has code of Sentiment Scores and `Cyber Bullying.R` has main Sentiment Analysis using Naive Bayes algorithm.* 
