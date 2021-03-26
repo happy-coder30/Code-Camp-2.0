@@ -40,7 +40,7 @@ where, y is class variable and X is a dependent feature vector (of size n) where
     ![Wordcloud that conatin not bullying words](images/accuracy.png)
     
 8. Display Sentiment Scores.
-    ![Sentiment Scores](images/images/Sentiment Scores.png)
+    ![Sentiment Scores](images/SentimentScores.png)
  
 ## Conclusion
 From the various machine learning approaches for sentiment analysis we chose Naive Bayes algorithm. The advantage of these classifiers is that they require small number of training data for estimating the parameters necessary for classification. This is the algorithm of choice for text categorization. Naive Bayes model trains the
