@@ -27,17 +27,19 @@ where, y is class variable and X is a dependent feature vector (of size n) where
 2. Data cleaning: Removing unwanted words that contribute nothing to the analysis by building corpus.
 3. Tokenization: Creation of DocumentTermMatrix.The process of converting text into tokens before transforming it into vectors. For example, a document into paragraphs or sentences into words. In this case we are tokenising the reviews into words.    
 4. Data Visualization: Formation of wordcloud 
-    ![Dataset Wordcloud](images/wordcloud.png)
-    ![Wordcloud that contain bullying words](images/wordcloudbully.png)
-    ![Wordcloud that conatin not bullying words](images/wordcloudnotbully.png)
+        ![Dataset Wordcloud](images/wordcloud.png)
+        ![Wordcloud that contain bullying words](images/wordcloudbully.png)
+        ![Wordcloud that conatin not bullying words](images/wordcloudnotbully.png)
 
 5. Divide dataset into 75% training and 25% testing
 6. Apply Naive Bayes algorithm. Calculate confusion matrix.
-  ![Confusion matrix for bully and not bully comments](images/table.PNG)
+    ![Confusion matrix for bully and not bully comments](images/table.PNG)
+    
 7. Display result i.e. accuracy of the model
- ![Wordcloud that conatin not bullying words](images/accuracy.png)
+    ![Wordcloud that conatin not bullying words](images/accuracy.png)
+    
 8. Display Sentiment Scores.
-![Sentiment Scores](images/sentiment Scores.png)
+    ![Sentiment Scores](images/Sentiment Scores.png)
  
 ## Conclusion
 From the various machine learning approaches for sentiment analysis we chose Naive Bayes algorithm. The advantage of these classifiers is that they require small number of training data for estimating the parameters necessary for classification. This is the algorithm of choice for text categorization. Naive Bayes model trains the
