@@ -33,11 +33,11 @@ where, y is class variable and X is a dependent feature vector (of size n) where
 
 5. Divide dataset into 75% training and 25% testing
 6. Apply Naive Bayes algorithm. Calculate confusion matrix.
-  ![Confusion matrix for bully and not bully comments](images/table.png)
+  ![Confusion matrix for bully and not bully comments](images/table.PNG)
 7. Display result i.e. accuracy of the model
  ![Wordcloud that conatin not bullying words](images/accuracy.png)
 8. Display Sentiment Scores.
-![Sentiment Scores](images/sentimentscores.png)
+![Sentiment Scores](images/sentiment Scores.png)
  
 ## Conclusion
 From the various machine learning approaches for sentiment analysis we chose Naive Bayes algorithm. The advantage of these classifiers is that they require small number of training data for estimating the parameters necessary for classification. This is the algorithm of choice for text categorization. Naive Bayes model trains the
