@@ -40,6 +40,7 @@ where, y is class variable and X is a dependent feature vector (of size n) where
     ![Wordcloud that conatin not bullying words](images/accuracy.png)
     
 8. Display Sentiment Scores.
+
     ![Sentiment Scores](images/Sentiment%20Score.png)
  
 ## Conclusion
