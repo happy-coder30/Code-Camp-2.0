@@ -38,12 +38,18 @@ where, y is class variable and X is a dependent feature vector (of size n) where
     
 7. Display result i.e. accuracy of the model
 
-    ![Wordcloud that conatin not bullying words](images/accuracy.png)
+    ![Wordcloud that contain not bullying words](images/accuracy.png)
     
 8. Display Sentiment Scores.
 
     ![Sentiment Scores](images/Sentiment%20Score.png)
  
+## Software Required:
+`[RStudio](https://www.rstudio.com/products/rstudio/download/) ` and `[CRAN library](https://cran.r-project.org/)` 
+
+- [Click here to know how to install RStudio](https://www.youtube.com/watch?v=NZxSA80lF1I)
+- Before running libraries mention in the code, you need to type `install.packages()` in the console. For e.g.,`install.packages("tm")` for loading `library(tm)`   
+
 ## Conclusion
 From the various machine learning approaches for sentiment analysis we chose Naive Bayes algorithm. The advantage of these classifiers is that they require small number of training data for estimating the parameters necessary for classification. This is the algorithm of choice for text categorization. Naive Bayes model trains the
 model in less time (for small data as in our case there are no hidden layers for the probabilistic model). Naive Bayes models are comparatively better for small data which is represented in our project.
