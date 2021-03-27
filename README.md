@@ -28,11 +28,9 @@ where, y is class variable and X is a dependent feature vector (of size n) where
 3. Tokenization: Creation of DocumentTermMatrix.The process of converting text into tokens before transforming it into vectors. For example, a document into paragraphs or sentences into words. In this case we are tokenising the reviews into words.    
 4. Data Visualization: Formation of wordcloud 
         ![Wordcloud of the whole dataset](images/wordcloud.png)
-        **Fig.1:Wordcloud of the whole dataset**
         ![Wordcloud that contain bullying words](images/wordcloudbully.png)
-        **Fig.2:Wordcloud that contains bullying words**
         ![Wordcloud that conatain not bullying words](images/wordcloudnotbully.png)
-        **Fig.2:Wordcloud that contains not a bullying word**
+       
         
 5. Divide dataset into 75% training and 25% testing
 6. Apply Naive Bayes algorithm. Calculate confusion matrix.
