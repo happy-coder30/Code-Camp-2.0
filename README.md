@@ -26,7 +26,7 @@ where, y is class variable and X is a dependent feature vector (of size n) where
 1. Import the dataset which is in `.csv` format (named as Dataset-of-comments-of-instagram-facebook-twitter) that contains the twitter,instagram and facebook comments of users and labelled as bully or not bully.
 2. Data cleaning: Removing unwanted words that contribute nothing to the analysis by building corpus.
 3. Tokenization: Creation of DocumentTermMatrix.The process of converting text into tokens before transforming it into vectors. For example, a document into paragraphs or sentences into words. In this case we are tokenising the reviews into words.    
-4. Data Visualization: Formation of wordcloud 
+4. Data Visualization: Formation of wordcloud.<br> 
         ![Wordcloud of the whole dataset](images/wordcloud.png)
         ![Wordcloud that contain bullying words](images/wordcloudbully.png)
         ![Wordcloud that conatain not bullying words](images/wordcloudnotbully.png)
