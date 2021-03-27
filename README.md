@@ -45,7 +45,7 @@ where, y is class variable and X is a dependent feature vector (of size n) where
     ![Sentiment Scores](images/Sentiment%20Score.png)
  
 ## Software Required:
-`[RStudio](https://www.rstudio.com/products/rstudio/download/) ` and `[CRAN library](https://cran.r-project.org/)` 
+[RStudio](https://www.rstudio.com/products/rstudio/download/)  and [CRAN library](https://cran.r-project.org/) 
 
 - [Click here to know how to install RStudio](https://www.youtube.com/watch?v=NZxSA80lF1I)
 - Before running libraries mention in the code, you need to type `install.packages()` in the console. For e.g.,`install.packages("tm")` for loading `library(tm)`   
